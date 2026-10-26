@@ -228,7 +228,7 @@ with tab_dash:
 # ═══════════════════════════════════════════════════════════════════════════════
 with tab_form_student:
     st.subheader("➕ Nhập thông tin học viên mới")
-    st.info("Bản deploy hiện ở chế độ chỉ đọc để bảo vệ dữ liệu Silver. Chức năng ghi dữ liệu lên BigQuery đã được tắt.")
+    st.info("Bản dành cho nhân viên hiện ở chế độ chỉ đọc để bảo vệ dữ liệu Silver. Chức năng ghi dữ liệu lên BigQuery đã được tắt.")
 
     with st.form("form_add_student", clear_on_submit=True):
         fa1, fa2 = st.columns(2)
@@ -278,7 +278,7 @@ with tab_form_student:
 # ═══════════════════════════════════════════════════════════════════════════════
 with tab_form_enroll:
     st.subheader("📝 Đăng ký khóa học cho học viên")
-    st.info("Bản deploy hiện ở chế độ chỉ đọc để bảo vệ dữ liệu Silver. Chức năng ghi dữ liệu lên BigQuery đã được tắt.")
+    st.info("Bản dành cho nhân viên hiện ở chế độ chỉ đọc để bảo vệ dữ liệu Silver. Chức năng ghi dữ liệu lên BigQuery đã được tắt.")
 
     # Load student list for selection
     student_options = students['student_id'].tolist()
