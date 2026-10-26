@@ -5,7 +5,7 @@ import json
 import uuid
 import datetime
 
-st.set_page_config(page_title='Education DW BI — Cloud & Local', layout='wide', page_icon='🎓')
+st.set_page_config(page_title='Dashboard quản lý giáo dục giành cho công nhân viên', layout='wide', page_icon='🎓')
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = BASE_DIR / 'data' / 'silver'
